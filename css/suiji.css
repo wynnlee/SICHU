@@ -1,0 +1,253 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+    margin: auto 0;
+}
+
+.side {
+    width: 63px;
+    height: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0px;
+    z-index: 100;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, .04);
+}
+
+.sss {
+    width: 63px;
+    height: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0px;
+    z-index: 100;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, .04);
+}
+
+.xxx {
+    width: 63px;
+    height: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0px;
+    z-index: 100;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, .04);
+}
+
+.side > .shoucang {
+    display: block;
+    background-color: #f33863;
+    text-align: center;
+    height: 9.2%;
+    /*padding-top: 7px;*/
+    color: #ffffff;
+    text-decoration: none;
+    margin: 1px 0;
+    font-weight: 300;
+}
+
+.sss > .shou {
+    display: block;
+    background-color: #f33863;
+    text-align: center;
+    height: 9.2%;
+    /*padding-top: 7px;*/
+    color: #ffffff;
+    text-decoration: none;
+    margin: 1px 0;
+    font-weight: 300;
+}
+
+.side > a > .title {
+    width: 60%;
+}
+
+.sss > a > .title {
+    width: 60%;
+}
+
+.side > div > img {
+    width: 50%;
+    padding-top: 6px;
+}
+
+.sss > div > img {
+    width: 50%;
+    padding-top: 6px;
+}
+
+.set_footer {
+    width: 85%;
+    height: 60px;
+    position: fixed;
+    right: 15%;
+    bottom: 7%;
+    z-index: 90;
+}
+
+.set_footer > .set {
+    display: block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    height: 60px;
+    padding-top: 7px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 1px 0;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.set1 {
+    background-color: #4c86f2;
+}
+
+.set2 {
+    background-color: #8833f0;
+}
+
+.set3 {
+    background-color: #4e30f0;
+}
+
+.set > img {
+    width: 26px;
+    margin-bottom: 5px;
+}
+
+.return {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.return > a > img {
+    width: 40px;
+}
+
+footer {
+    width: 100%;
+    height: 7%;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, .04);
+}
+
+footer > a {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #90a5af;
+    text-decoration: none;
+    height: 10%;
+    line-height: 50px;
+}
+
+footer > div {
+    height: 10%;
+    line-height: 50px;
+}
+
+div > .setting {
+    background-color: #bfbfbf;
+    display: block;
+    text-align: center;
+    width: 75px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 0;
+    text-decoration: none;
+}
+
+div > .complete {
+    background-color: #5c31f2;
+    display: block;
+    text-align: center;
+    width: 45px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 6px;
+    border-radius: 3px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.skirt {
+    width: 75%;
+    position: absolute;
+    left: 6%;
+    top: 3%;
+    display: none;
+}
+.skirt1{
+    width: 55%;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    display: none;
+}
+.skirt2{
+    width: 43%;
+    position: absolute;
+    left: 22%;
+    top: 5%;
+    display: block;
+}
+.dress {
+    width: 34%;
+    position: absolute;
+    left: 24%;
+    top: 45%;
+    display: none;
+}
+.qunzi1 {
+    width: 56%;
+    position: absolute;
+    left: 18%;
+    top: 42%;
+    display: none;
+}
+.qunzi3{
+    width: 64%;
+    position: absolute;
+    left: 10%;
+    top: 42%;
+    display: none;
+}
+.qunzi4{
+    width: 64%;
+    position: absolute;
+    left: 10%;
+    top: 42%;
+    display: none;
+}
+.qunzi5{
+    width: 64%;
+    position: absolute;
+    left: 10%;
+    top: 48%;
+    display: none;
+}
+.qunzi2{
+      width: 24%;
+    position: absolute;
+    left: 30%;
+    top: 34%;
+    display: none;
+}

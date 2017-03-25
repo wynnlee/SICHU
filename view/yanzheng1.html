@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/yanzheng.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css" />
+    <script type="text/javascript" src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body class="background">
+    <script>
+        $(function() {
+            $("#txt1").on("click", function() {
+                $("#txt1").hide();
+                $("#txt").show();
+            })
+        });
+        var count = 60;
+        var t;
+
+        function startcount() {
+            count = 60;
+            t = setInterval(timer, 1000);
+        }
+
+        function timer() {
+            var c = document.getElementById('txt');
+
+            c.value = count;
+            count -= 1;
+            if (count < 0) {
+                clearInterval(t);
+                alert('时间到！')
+            }
+        }
+
+        function stopcount() {
+            clearInterval(t);
+
+        }
+    </script>
+    <header>
+        <div class="col-xs-4">
+            <a href="xianden.html"><img src="../resources/img/15.1.png" class="img1"></a>
+        </div>
+        <div class="col-xs-4 search">手机注册</div>
+        <div class="col-xs-4"></div>
+    </header>
+    <div>
+        <input class="input1 col-xs-9" placeholder="输入手机号">
+        <button onclick="startcount()" id="txt1">获取号码</button>
+        <input type="text" id="txt">
+    </div>
+    <div>
+        <input class="input2 col-xs-12" placeholder="请输入验证号码" type="password">
+    </div>
+    <div class="top">
+        <a href="main.html" class="next col-xs-12">登录进入</a>
+    </div>
+</body>
+
+</html>

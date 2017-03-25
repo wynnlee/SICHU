@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/tuijian.css" rel="stylesheet">
+    <script src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="search.html" class="col-xs-3"><img src="../resources/img/_0033.png" alt="" class=" search"></a>
+        <div class="col-xs-5 col-xs-offset-1">
+            <a href="tuijian.html" class="tuijian">推荐</a>
+            <a href="zhida-03.html">智搭</a>
+        </div>
+    </header>
+    <div id="myCarousel" class="carousel slide lunbo" data-ride="carousel" data-interval="2000">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../resources/img/shouye1.1.png" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="../resources/img/shouye1.2.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="../resources/img/shouye1.3.png" alt="Third slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+
+    </div>
+    <div class="smallmenu">
+        <a href="dapeishi.html" class="col-xs-3"><img src="../resources/img/1.1.png" alt=""><br><span>搭配师</span></a>
+        <a href="mingri.html" class="col-xs-3"><img src="../resources/img/1.2.png" alt=""><br><span class="active">明天搭配</span></a>
+        <a href="dingzhi.html" class="col-xs-3"><img src="../resources/img/1.3.png" alt=""><br><span>专属制定</span></a>
+        <a href="dapei2.html" class="col-xs-3"><img src="../resources/img/1.4.png" alt=""><br><span>优选搭配</span></a>
+    </div>
+    <div class="bigtitle clearfix">
+        <p>- 今日良品 -</p>
+        <a href="shangpin.html"><img src="../resources/img/1.5.png" class="col-xs-12 card" alt=""></a>
+        <div class="shopping">
+            <a href="danpin.html"><img class="col-xs-3" src="../resources/img/1.6.png" alt=""></a>
+            <a href="danpin.1.html"><img class="col-xs-3" src="../resources/img/1.7.png" alt=""></a>
+            <a href="danpin.2.html"><img class="col-xs-3" src="../resources/img/1.8.png" alt=""></a>
+            <a href="danpin.3.html"><img class="col-xs-3" src="../resources/img/1.9.png" alt=""></a>
+        </div>
+        <div class="shoppingmoney">
+            <a href="danpin.html" class="col-xs-3">
+                <p>仿皮夹克</p>
+                <p>￥599.00</p>
+            </a>
+            <a href="#" class="col-xs-3">
+                <p>立领针织衫</p>
+                <p>￥239.00</p>
+            </a>
+            <a href="#" class="col-xs-3">
+                <p>百褶中长裙</p>
+                <p>￥599.00</p>
+            </a>
+            <a href="#" class="col-xs-3">
+                <p>仿皮夹克</p>
+                <p>￥599.00</p>
+            </a>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="contenthou">
+        <div class="clearfix">
+            <img src="../resources/img/2.8.png" alt="" class="col-xs-6 b1">
+            <div class="l1 col-xs-6">
+                <a href=""><img src="../resources/img/2.4.png" alt="" class="touxiang "><span class="name">ZARA</span></a>
+                <a><img src="../resources/img/2.5.png" alt="" class="like" id="like1"></a>
+            </div>
+            <img src="../resources/img/2.10.png" alt="" class="col-xs-6 b2">
+            <div class="l2 col-xs-6">
+                <a href=""><img src="../resources/img/2.4.png" alt="" class="touxiang "><span class="name">ZARA</span></a>
+                <a><img src="../resources/img/2.5.png" alt="" class="like" id="like2"></a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <footer>
+        <a href="main.html" class="col-xs-3"><img src="../resources/img/_0004.png" alt="" class="img_logo"><br><span>衣橱</span></a>
+        <a href="tuijian.html" class="col-xs-3 active"><img src="../resources/img/_0001.png" alt=""><br><span>发现</span></a>
+        <a href="dongtai.html" class="col-xs-3"><img src="../resources/img/_0003.png" alt=""><br><span>动态</span></a>
+        <a href="gerenzhongxin.html" class="col-xs-3"><img src="../resources/img/_0002.png" alt=""><br><span>个人</span></a>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            var x = 0;
+            $("#like1").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like1").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like1").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+        $(document).ready(function() {
+            var x = 0;
+            $("#like2").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like2").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like2").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+    </script>
+</body>
+
+</html>

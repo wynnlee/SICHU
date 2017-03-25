@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/dingdan.css" rel="stylesheet">
+    <script src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="col-xs-1">
+            <a href="gerenzhongxin.html"><img src="../resources/img/16.1.png" alt="" style="width: 13px;"></a>
+        </div>
+        <div class="col-xs-5 col-xs-offset-4">
+            <a href="#">订单</a>
+        </div>
+
+    </header>
+
+    <div class="foot">
+        <span class="active act" id="one" onclick="e()">全部</span>
+        <span class="active" id="two" onclick="a()">待付款</span>
+        <span class="active" id="two2" onclick="b()">待发货</span>
+        <span class="active" id="two3" onclick="c()">待收货</span>
+        <span class="active" id="two4" onclick="d()">待评价</span>
+    </div>
+    <script>
+        function a() {
+            $("#two").addClass("act").siblings().removeClass("act");
+        }
+
+        function b() {
+            $("#two2").addClass("act").siblings().removeClass("act");
+        }
+
+        function c() {
+            $("#two3").addClass("act").siblings().removeClass("act");
+        }
+
+        function d() {
+            $("#two4").addClass("act").siblings().removeClass("act");
+        }
+
+        function e() {
+            $("#one").addClass("act").siblings().removeClass("act");
+        }
+    </script>
+
+</body>
+
+</html>

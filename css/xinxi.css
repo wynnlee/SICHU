@@ -1,0 +1,137 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+    margin: auto 0;
+}
+
+body {
+    background-color: #f6fafd;
+}
+
+header {
+    background-color: #f33863;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header > div {
+    margin-top: 27px;
+}
+
+header > div > a {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+.main {
+    margin: 70px 0 0 0;
+    padding-top: 20px;
+}
+
+form > .inp {
+    background-color: #f3f3f3;
+    height: 45px;
+    margin: 10px 0px;
+    font-size: 16px;
+    color: #b4c2c8;
+    padding-left: 45px;
+    border: solid 1px #f3f3f3;
+}
+
+form > .inp:focus {
+    border-color: #f33863;
+    outline: none;
+    box-shadow: none;
+}
+
+form > .img1 {
+    position: absolute;
+    bottom: 42px;
+    left: 22px;
+}
+
+form > .img2 {
+    position: absolute;
+    bottom: -82px;
+    left: 22px;
+}
+
+.forget {
+    text-align: right;
+}
+
+.forget > a {
+    color: #b4c2c8;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login {
+    background-color: #5c31f2;
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 2px 1px #5c31f2;
+}
+
+.warning {
+    color: #f33863;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    margin: 45px 0;
+}
+
+.fast {
+    border-top: #b4c2c8 solid 1px;
+    text-align: center;
+    position: relative;
+    margin-top: 56px;
+}
+
+.fast > span {
+    color: #b4c2c8;
+    background-color: #f6fafd;
+    position: absolute;
+    top: -10px;
+    left: 40%;
+    padding: 0 10px;
+}
+
+.tu {
+    display: block;
+    text-align: center;
+    float: left;
+    width: 30.33333333333333333%;
+}
+
+.tu > img {
+    margin-left: 18px;
+    margin-top: 36px;
+    width: 70px;
+}
+
+.in {
+    text-align: center;
+
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/dongtai.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
+
+    <script src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 170px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            font-size: 18px;
+            /* background: #fff;*/
+            z-index: 1000;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            width: 100%;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="../resources/js/swiper.jquery.min.js"></script>
+    <script src="../resources/js/swiper.min.js"></script>
+    <header>
+        <div class="col-xs-2">
+            <a href="search1.html"><img src="../resources/img/14.1.png" alt="" style="width: 25px;"></a>
+        </div>
+        <div class="col-xs-5 col-xs-offset-3">
+            <a href="#">动态</a>
+        </div>
+
+
+    </header>
+    <div class="content">
+        <!--  <div class="downheader">
+            <a href="#" class="a1"><span class="sp7">热门话题</span></a>
+        </div> -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(../resources/img/shouye1.1.png);background-repeat:no-repeat;"></div>
+                <div class="swiper-slide" style="background-image:url(../resources/img/shouye1.2.png);background-repeat:no-repeat;"></div>
+                <div class="swiper-slide" style="background-image:url(../resources/img/shouye1.3.png);background-repeat:no-repeat;"></div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <!--  <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>-->
+        </div>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                // nextButton: '.swiper-button-next',
+                // prevButton: '.swiper-button-prev',
+                autoplay: 3000
+            });
+        </script>
+        <hr>
+        <ul class="clearfix">
+            <div class="daren">
+                <li class="l1 l1_1">
+                    <div class="daren_1">
+                        <img class="tu1" src="../resources/img/14.6.png" alt="">
+                        <span class="pp">达人支招</span>
+                    </div>
+                </li>
+                <li class="l1 l1_2">
+                    <div class="daren_1">
+                        <img class="tu1" src="../resources/img/14.6.png" alt="">
+                        <span class="pp">活动区</span>
+                    </div>
+                </li>
+                <li class="l1 l1_3">
+                    <div class="daren_1">
+                        <img class="tu1" src="../resources/img/14.6.png" alt="">
+                        <span class="pp">全名搭配师</span>
+                    </div>
+                </li>
+            </div>
+            <div class="clear"></div>
+        </ul>
+        <div class="zhuangtai">
+            <div class="zhuangtai_1">
+                <a href="others.html"><img src="../resources/img/14.9.png" alt="" class="tu2"></a>
+                <span class="sp1">&nbsp;&nbsp;TARE</span><span class="sp2">&nbsp;&nbsp;3.21</span>
+            </div>
+            <a href="post.html"><img src="../resources/img/14.10.png" alt="" class="tu3"></a>
+            <div class="zhuangtai_2 clearfix">
+                <span class="sp3">【猜搭配】第22期</span><span class="sp4">1955</span><span class="sp5">人围观</span><br><br>
+                <a href=""><span class="sp6">阅读全文</span></a>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $("div.content .daren li.l1_2 .daren_1 .tu1").css("width", "55%").css("height", "55%");
+            $("div.content .daren li.l1_2").addClass("l2");
+            $("div.content .daren li.l1_1").click(function() {
+                $("div.content .daren li.l1_1 .daren_1 .tu1").css("width", "55%").css("height", "55%");
+                $(".tu3").attr("src", "../resources/img/shouye1.2.png")
+                $(".tu2").attr("src", "../resources/img/15.3.png")
+                $(".sp4").text("2222");
+                $(".sp3").text("【猜搭配】第21期");
+                $("div.content .daren li.l1_1").addClass("l2").each(function() {
+                    $("div.content .daren li.l1_2").removeClass("l2");
+                    $("div.content .daren li.l1_3").removeClass("l2");
+                    $("div.content .daren li.l1_2 .daren_1 .tu1").css("width", "50%").css("height", "50%");
+                    $("div.content .daren li.l1_3 .daren_1 .tu1").css("width", "50%").css("height", "50%");
+
+                })
+            })
+            $("div.content .daren li.l1_2").click(function() {
+                $("div.content .daren li.l1_2 .daren_1 .tu1").css("width", "55%").css("height", "55%");
+                $(".tu3").attr("src", "../resources/img/14.10.png")
+                $(".tu2").attr("src", "../resources/img/14.9.png")
+                $(".sp4").text("1955");
+                $(".sp3").text("【猜搭配】第22期");
+                $("div.content .daren li.l1_2").addClass("l2").each(function() {
+                    $("div.content .daren li.l1_1").removeClass("l2");
+                    $("div.content .daren li.l1_3").removeClass("l2");
+                    $("div.content .daren li.l1_1 .daren_1 .tu1").css("width", "50%").css("height", "50%");
+                    $("div.content .daren li.l1_3 .daren_1 .tu1").css("width", "50%").css("height", "50%");
+                })
+            })
+            $("div.content .daren li.l1_3").click(function() {
+                $("div.content .daren li.l1_3 .daren_1 .tu1").css("width", "55%").css("height", "55%");
+                $(".tu3").attr("src", "../resources/img/shouye1.1.png")
+                $(".tu2").attr("src", "../resources/img/15.5.png")
+                $(".sp4").text("1878");
+                $(".sp3").text("【猜搭配】第23期");
+                $("div.content .daren li.l1_3").addClass("l2").each(function() {
+                    $("div.content .daren li.l1_2").removeClass("l2");
+                    $("div.content .daren li.l1_1").removeClass("l2");
+                    $("div.content .daren li.l1_2 .daren_1 .tu1").css("width", "50%").css("height", "50%");
+                    $("div.content .daren li.l1_1 .daren_1 .tu1").css("width", "50%").css("height", "50%");
+                })
+            })
+        })
+    </script>
+    <footer>
+        <a href="main.html" class="col-xs-3"><img src="../resources/img/_0004.png" alt="" class="img_logo"><br><span>衣橱</span></a>
+        <a href="tuijian.html" class="col-xs-3"><img src="../resources/img/5.11.png" alt=""><br><span>发现</span></a>
+        <a href="dongtai.html" class="col-xs-3 active"><img src="../resources/img/6.13.png" alt=""><br><span>动态</span></a>
+        <a href="gerenzhongxin.html" class="col-xs-3"><img src="../resources/img/_0002.png" alt=""><br><span>个人</span></a>
+    </footer>
+</body>
+
+</html>

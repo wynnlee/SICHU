@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/search.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css" />
+    <script type="text/javascript" src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:#f6fafd;">
+    <header>
+        <div class="col-xs-1 one">
+            <a href="tuijian.html"><img src="../resources/img/15.1.png" class="back"></a>
+        </div>
+        <div class="col-xs-8 two">
+            <input type="text" placeholder="&nbsp;搜商品和衣橱里的衣服" class="col-xs-12 inp">
+        </div>
+        <div class="col-xs-2 sear">
+            <span class="search">搜索</span>
+        </div>
+    </header>
+    <div class="choose">
+        <span class="cli act" id="commedity" onclick="a()">商品</span>
+        <span class="cli" id="ddd_1" onclick="b()">衣服</span>
+    </div>
+    <script>
+        function a() {
+            $('#commedity').addClass('act').siblings().removeClass('act');
+        }
+
+        function b() {
+            $('#ddd_1').addClass('act').siblings().removeClass('act');
+        }
+    </script>
+    <div class="recently">
+        <p>最近搜索</p>
+        <span onclick="c()">清空</span>
+        <a href=""><span class="shirt">针织衫</span></a>
+    </div>
+    <script type="text/javascript">
+        function c() {
+            $(".shirt").css('display', 'none');
+        }
+    </script>
+    <div class="hot">
+        <p>热门搜索</p>
+        <span>·单品</span>
+        <ul>
+            <li>针织衫</li>
+            <li>卫衣</li>
+            <li>风衣</li>
+            <li>单鞋</li>
+            <li>长裤</li>
+            <li>小白鞋</li>
+            <li>靴子</li>
+        </ul>
+        <hr class="line">
+        <span>·搭配</span>
+        <ul>
+            <li>韩系</li>
+            <li>显高</li>
+            <li>清新</li>
+            <li>显白</li>
+        </ul>
+    </div>
+</body>
+
+</html>

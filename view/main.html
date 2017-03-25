@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/font-awesome/css/font-awesome.min.css">
+    <script src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/main.js"></script>
+    <script src='../resources/js/TweenMax.min.js'></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="col-xs-6 col-xs-offset-4">
+            <a href="#">我的衣橱</a>
+        </div>
+        <div class="col-xs-2">
+            <a href="jinri.html"><img src="../resources/img/3.1.png" alt="" style="width: 25px;"></a>
+        </div>
+    </header>
+    <div class="downheader">
+        <a href="main.html" class="col-xs-4 active"><span>衣服</span></a>
+        <a href="dapei.html" class="col-xs-4"><span>搭配</span></a>
+        <a href="shoucang.html" class="col-xs-4"><span>收藏</span></a>
+    </div>
+
+    <!--//内容-->
+    <div class="content">
+        <p class="bigtitle">全部</p>
+        <p>上衣</p>
+        <div>
+            <a href="compile.html"><img src="../resources/img/3.3.png" alt="" class="col-xs-4 left"></a>
+            <a href="compile1.html"><img src="../resources/img/3.4.png" alt="" class="col-xs-4 center"></a>
+            <a href="compile2.html"><img src="../resources/img/3.5.png" alt="" class="col-xs-4 right"></a>
+            <a href="compile3.html"><img src="../resources/img/3.6.png" alt="" class="col-xs-4 left"></a>
+            <a href="compile4.html"><img src="../resources/img/3.7.png" alt="" class="col-xs-4 center"></a>
+            <a href="compile5.html"><img src="../resources/img/3.8.png" alt="" class="col-xs-4 right"></a>
+        </div>
+        <p>下装</p>
+        <div class="clearfix" style="margin-bottom: 85px;">
+            <a href="compile6.html"><img src="../resources/img/3.10.png" alt="" class="col-xs-4 left"></a>
+            <a href="compile7.html"><img src="../resources/img/3.11.png" alt="" class="col-xs-4 center"></a>
+            <a href="compile8.html"><img src="../resources/img/3.12.png" alt="" class="col-xs-4 right"></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+
+    <!--//液态式环形按钮菜单特效-->
+
+    <div class='menu' style="z-index: 200;">
+        <div class='menu-wrapper'>
+            <ul class='menu-items'>
+                <li class='menu-item'>
+                    <button class='menu-item-button ' style="background-color: white;">
+				  <a href="6.html"><img src="../resources/img/xiangji.png"  alt="" class="comera"></a>
+				</button>
+                    <div class='menu-item-bounce'></div>
+                </li>
+                <li class='menu-item'>
+                    <button class='menu-item-button ' style="background-color: white;">
+				  <img src="../resources/img/xiangce.png" alt="" class="photo"><input  type="file" accept="image/*;" capture="camera" style="opacity:0;position:absolute;top: 15px;">
+                  
+				</button>
+                    <div class='menu-item-bounce'></div>
+                </li>
+                <li class='menu-item'>
+                    <button class='menu-item-button'>
+				  <img src="../resources/img/taobao.png" alt="" class="taobao">
+				</button>
+                    <div class='menu-item-bounce'></div>
+                </li>
+            </ul>
+            <button class='menu-toggle-button'>
+			  <img src="../resources/img/jiahao.png" alt="" class="plus">
+			</button>
+        </div>
+    </div>
+    <div class="upfooter">
+        <a href="#" class="col-xs-6" data-toggle="modal" data-target="#myModal"><span>类别</span>&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+        <a href="#" class="col-xs-6" data-toggle="modal" data-target="#myModal1"><span>筛选</span>&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+    </div>
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="margin-top: 230px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+                    <h4 class="modal-title" id="myModalLabel" style="color:#cecece;">
+					筛选
+				</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">季节<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">春</a></li>
+                            <li><a href="#">夏</a></li>
+                            <li><a href="#">秋</a></li>
+                            <li><a href="#">冬</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">颜色<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">品牌<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="margin-top: 230px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+                    <h4 class="modal-title" id="myModalLabel" style="color:#cecece;">
+					类别
+				</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">帽子<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">上衣<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">裤子<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">鞋子<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">包包<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+                    <div class="dropdown" style="height: 33px;">
+                        <b class="caret"></b>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">配饰<i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <footer>
+        <a href="main.html" class="col-xs-3 active"><img src="../resources/img/_0005.png" alt="" class="img_logo"><br><span>衣橱</span></a>
+        <a href="tuijian.html" class="col-xs-3"><img src="../resources/img/5.11.png" alt=""><br><span>发现</span></a>
+        <a href="dongtai.html" class="col-xs-3"><img src="../resources/img/_0003.png" alt=""><br><span>动态</span></a>
+        <a href="gerenzhongxin.html" class="col-xs-3"><img src="../resources/img/_0002.png" alt=""><br><span>个人</span></a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/shangpin.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/font-awesome/css/font-awesome.min.css">
+    <script src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="col-xs-1">
+            <a href="tuijian.html"><img src="../resources/img/16.1.png" alt="" style="width: 13px;"></a>
+        </div>
+        <div class="col-xs-4 col-xs-offset-3">
+            <a href="#">商品详情</a>
+        </div>
+        <div class="col-xs-1 col-xs-offset-2">
+            <a href="fenxiang.html"><img src="../resources/img/9.2.png" alt="" style="width: 25px;"></a>
+        </div>
+    </header>
+    <div class="danpin col-xs-12">
+        <div class="tip col-xs-12">
+            <a href=""><img src="../resources/img/8.1.png" alt="" class=""></a>
+            <span class="uname">穿衣舍长</span>
+            <span class="usay">一个喜欢自由搭配的人</span>
+            <span class="utime">04-20 01:03</span>
+        </div>
+        <div class="tu clearfix">
+            <a href=""><img src="../resources/img/8.4.png" alt="" class="col-xs-12"></a>
+            <a href="" class="tu_a1">简约风</a>
+            <a href="danpin.html" class="tu_a2">ZARA皮夹克</a>
+            <div class="clear"></div>
+        </div>
+        <div class="dianji col-xs-12">
+            <a href="suiji.html" class="a_left">去搭配</a>
+            <a href="shoucang2.html" class="a_right">收藏</a>
+        </div>
+
+    </div>
+    <div class="pinglun col-xs-12">
+        <div class="saying col-xs-12">
+            <span class="title">精彩评论</span><span class="title_s">（已有122条评论）</span>
+            <div class="s clearfix">
+                <a href=""><img src="../resources/img/8.5.png" alt="" class="tou"></a>
+                <span class="uname">刘岩</span>
+                <span class="usay">我叫刘美丽</span>
+                <span class="utime">16分钟前</span>
+                <p>楼主你不是一个人~我很喜欢！</p>
+                <a href=""><span class="danger">举报</span></a>
+                <a href="" class="reply1"><img src="../resources/img/8.14.png" alt="" class=""> 回复</a>
+                <a href="" class="reply2"><img src="../resources/img/8.13.png" alt="" class="">7</a>
+                <div class="clear"></div>
+            </div>
+            <div class="s clearfix">
+                <a href=""><img src="../resources/img/8.6.png" alt="" class="tou"></a>
+                <span class="uname">Revin</span>
+                <span class="usay">买买买~</span>
+                <span class="utime">25分钟前</span>
+                <p>不管了~我也要和你一样剁手一次~好喜欢</p>
+                <a href=""><span class="danger">举报</span></a>
+                <a href="" class="reply1"><img src="../resources/img/8.14.png" alt="" class=""> 回复</a>
+                <a href="" class="reply2"><img src="../resources/img/8.13.png" alt="" class="">7</a>
+                <div class="clear"></div>
+            </div>
+            <a href="" class="more">查看更多</a>
+        </div>
+    </div>
+    <div class="xiangsi col-xs-12">
+        <div class="xdan clearfix">
+            <p>- 相似单品 -</p>
+            <img src="../resources/img/8.8.png" alt="" class="col-xs-6 a1">
+            <div class="l1 col-xs-6">
+                <a href="danpin.2.html"><span class="name2">百褶中长裙</span></a>
+                <a><img src="../resources/img/2.5.png" alt="" class="like2" id="like3"><span class="num"></span></a>
+            </div>
+            <img src="../resources/img/8.7.png" alt="" class="col-xs-6 a2">
+            <div class="l2 col-xs-6">
+                <a href="danpin.3.html"><span class="name2">交叉搭带凉鞋</span></a>
+                <a><img src="../resources/img/2.5.png" alt="" class="like2" id="like4"><span class="num"></span></a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="contenthou">
+            <div class="clearfix">
+                <img src="../resources/img/2.8.png" alt="" class="col-xs-6 b1">
+                <div class="l1 col-xs-6">
+                    <a href=""><img src="../resources/img/2.4.png" alt="" class="touxiang"><span class="name">ZARA</span></a>
+                    <a><img src="../resources/img/2.5.png" alt="" class="like" id="like1"></a>
+                </div>
+                <img src="../resources/img/2.6.png" alt="" class="col-xs-6 b2">
+                <div class="l2 col-xs-6">
+                    <a><img src="../resources/img/2.4.png" alt="" class="touxiang"><span class="name">ZARA</span></a>
+                    <a><img src="../resources/img/2.5.png" alt="" class="like" id="like2"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            var x = 0;
+            $("#like1").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like1").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like1").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+        $(document).ready(function() {
+            var x = 0;
+            $("#like2").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like2").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like2").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+        $(document).ready(function() {
+            var x = 0;
+            $("#like3").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like3").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like3").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+        $(document).ready(function() {
+            var x = 0;
+            $("#like4").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like4").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like4").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+    </script>
+
+</body>
+
+</html>

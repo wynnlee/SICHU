@@ -1,0 +1,330 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+    margin: auto 0;
+}
+
+body {
+    background-color: #f6fafd;
+}
+
+header {
+    background-color: #f33863;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header > div {
+    margin-top: 27px;
+}
+
+header > div > a {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+.danpin {
+    margin-top: 75px;
+}
+
+.danpin > .tip {
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    margin-top: 5px;
+    height: 50px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.tip > a >img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 2px;
+    top: 8px;
+}
+
+.uname {
+    position: absolute;
+    left: 45px;
+    top: 6px;
+    font-size: 14px;
+    color: #727272
+}
+
+.usay {
+    position: absolute;
+    left: 45px;
+    top: 28px;
+    font-size: 12px;
+    color: #b0b0b0
+}
+
+.utime {
+    position: absolute;
+    right: 10px;
+    top: 28px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.tu {
+    position: relative;
+}
+
+.tu > a > img {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.tu_a1 {
+    color: white;
+    position: absolute;
+    right: 37%;
+    bottom: 62%;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.tu_a2 {
+    color: white;
+    position: absolute;
+    right: 13%;
+    bottom: 40%;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.danpin > .dianji {
+    background-color: #5c31f2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    height: 38px;
+    line-height: 38px;
+    border-radius: 3px;
+}
+
+.dianji > a {
+    display: block;
+    width: 50%;
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+.a_left {
+    border-right: solid #f6fafd 0.1px;
+}
+
+.pinglun {
+    margin: 10px 0;
+}
+
+.pinglun > .saying {
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    margin-top: 5px;
+    position: relative;
+    border-radius: 3px;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.title {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #727272;
+}
+
+.title_s {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.more {
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    color: #727272;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.s {
+    position: relative;
+    margin: 10px 0;
+    height: 130px;
+    border-top: solid #f6fafd 1px;
+}
+
+.tou {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 4px;
+    top: 8px;
+}
+
+.s > p {
+    font-size: 15px;
+    color: #727272;
+    position: absolute;
+    left: 8px;
+    top: 65px;
+}
+
+.s > a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.danger {
+    font-size: 12px;
+    color: #b0b0b0;
+    position: absolute;
+    left: 8px;
+    top: 100px;
+}
+
+.reply1 {
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    font-size: 12px;
+}
+
+.reply2 {
+    position: absolute;
+    right: 8px;
+    top: 98px;
+    font-size: 12px;
+}
+
+.reply1 > img {
+    width: 15px;
+}
+
+.reply2 > img {
+    width: 20px;
+}
+
+.xiangsi {
+    margin-top: 5px;
+}
+
+.xiangsi > .xdan {
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    border-radius: 3px;
+}
+
+.xdan {
+    position: relative;
+}
+
+.xdan > p {
+    color: #9d9d9d;
+    font-size: 13px;
+    text-align: center;
+    padding: 12px 0
+}
+
+.xdan >img.a1 {
+    padding: 5px 2.5px 5px 5px;
+    margin-bottom: 5px;
+}
+
+.xdan >img.a2 {
+    padding: 5px 5px 5px 2.5px;
+    margin-bottom: 5px;
+}
+
+.name2 {
+    position: absolute;
+    bottom: 20px;
+    left: 13px;
+    color: white;
+}
+
+.like2 {
+    position: absolute;
+    bottom: 19px;
+    right: 11px;
+    width: 20px;
+}
+
+.num {
+    position: absolute;
+    bottom: 19px;
+    right: 10px;
+    width: 20px;
+    color: white;
+}
+
+.contenthou {
+    margin: 10px 0 18px 0;
+    position: relative;
+}
+
+.contenthou > div > .b1 {
+    padding: 10px 2.5px 0 0px;
+}
+
+.contenthou > div > .b2 {
+    padding: 10px 0px 0 2.5px;
+}
+
+.l1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.l2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.l1 > a {
+    display: block;
+    text-decoration: none;
+}
+
+.touxiang {
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
+    width: 20px
+}
+
+.name {
+    position: absolute;
+    bottom: 4px;
+    left: 35px;
+    color: white;
+}
+
+.like {
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+    width: 20px;
+}

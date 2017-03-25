@@ -1,0 +1,30 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+body {
+    padding: 0;
+    margin: 0;
+    margin: auto 0;
+}
+
+.bo{
+	height: 666px;
+	width: 100%;
+}
+.welcome{
+	/*border-color: #f6fafd;*/
+	width: 100%;
+    background-color: #5c31f2;
+    border-radius: 15px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 85%;
+}

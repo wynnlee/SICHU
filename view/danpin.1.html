@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/danpin.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/font-awesome/css/font-awesome.min.css">
+    <script src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="col-xs-1">
+            <a href="shangpin.html"><img src="../resources/img/16.1.png" alt="" style="width: 13px;"></a>
+        </div>
+        <div class="col-xs-4 col-xs-offset-3">
+            <a href="#">单品详情</a>
+        </div>
+        <div class="col-xs-1 col-xs-offset-2">
+            <a href="fenxiang.html"><img src="../resources/img/9.2.png" alt="" style="width: 25px;"></a>
+        </div>
+    </header>
+    <div class="danpin col-xs-12">
+        <div>
+            <a href=""><img src="../resources/img/1.7.png" alt="" class="col-xs-12"></a>
+        </div>
+        <div class="tip col-xs-12">
+            <a href=""><img src="../resources/img/9.4.png" alt="" style="width: 22px;">ZARA</a>
+            <a href=""><img src="../resources/img/9.5.png" alt="" style="width: 22px;">立领针织衫</a>
+            <a href=""><img src="../resources/img/9.6.png" alt="" style="width: 15px;">粉色</a>
+        </div>
+        <div class="dianji col-xs-12">
+            <a href="suiji.html" class="a_left">去搭配</a>
+            <a href="shoucang2.html" class="a_right">收藏</a>
+        </div>
+    </div>
+    <div class="xiangsi col-xs-12">
+        <div class="xdan clearfix">
+            <p>- 相似单品 -</p>
+            <img src="../resources/img/9.7.png" alt="" class="col-xs-6 a1">
+            <div class="l1 col-xs-6">
+                <a href=""><span class="name2">人造皮夹克</span></a>
+                <a><img src="../resources/img/2.5.png" alt="" class="like2" id="like1"><span class="num"></span></a>
+            </div>
+            <img src="../resources/img/9.7.png" alt="" class="col-xs-6 a2">
+            <div class="l2 col-xs-6">
+                <a href=""><span class="name2">人造皮夹克</span></a>
+                <a><img src="../resources/img/2.5.png" alt="" class="like2" id="like2"><span class="num"></span></a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="contenthou">
+            <div class="clearfix">
+                <img src="../resources/img/2.8.png" alt="" class="col-xs-6 b1">
+                <div class="l1 col-xs-6">
+                    <a href=""><img src="../resources/img/2.4.png" alt="" class="touxiang"><span class="name">ZARA</span></a>
+                    <a><img src="../resources/img/2.5.png" alt="" class="like" id="like3"></a>
+                </div>
+                <img src="../resources/img/2.10.png" alt="" class="col-xs-6 b2">
+                <div class="l2 col-xs-6">
+                    <a href=""><img src="../resources/img/2.4.png" alt="" class="touxiang"><span class="name">ZARA</span></a>
+                    <a><img src="../resources/img/2.5.png" alt="" class="like" id="like4"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="">
+        <a href="#" class="a3">加入购物车</a>
+        <a href="#" class="a4">立即购买</a>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            var x = 0;
+            $("#like1").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like1").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like1").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+        $(document).ready(function() {
+            var x = 0;
+            $("#like2").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like2").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like2").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+        $(document).ready(function() {
+            var x = 0;
+            $("#like3").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like3").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like3").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+        $(document).ready(function() {
+            var x = 0;
+            $("#like4").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("#like4").attr('src', '../resources/img/2.12.png');
+            }
+
+
+            function b() {
+                $("#like4").attr('src', '../resources/img/2.5.png');
+            }
+
+
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f6fafd;
+}
+
+header {
+    background-color: #f33863;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header > div {
+    margin-top: 27px;
+}
+
+header > div > a {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+header > div > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    width: 24px;
+    height: 24px;
+    margin: 30px 0 0 0;
+}
+
+.tuijian{
+    font-size: 18px;
+    color: #dadada;
+}
+
+.lunbo {
+    margin-top: 64px;
+}
+
+.carousel-indicators > li {
+    background-color: #f33863;
+}
+
+.smallmenu {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #cacdcf;
+}
+
+.smallmenu > a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #728c99;
+    font-size: 10px;
+}
+
+.smallmenu > a > img {
+    width: 23px;
+    height: 21px;
+    margin-bottom: 4px;
+}
+
+.bigtitle {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+}
+
+.bigtitle > p {
+    text-align: center;
+    margin-top: 12px;
+    color: #728c99;
+    font-size: 15px;
+    padding: 3px 0;
+}
+
+.bigtitle > a > .card {
+    padding: 0;
+}
+
+.shopping > a {
+    display: block;
+    text-align: center;
+}
+
+.shopping > a >img {
+    padding: 3px 5px;
+}
+
+.shoppingmoney > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #bac7cd;
+    font-size: 10px;
+}
+
+.shoppingmoney > a > p {
+    padding: -3px 0;
+    margin: 0;
+}
+
+.contenthou {
+    margin: 10px 0 60px 0;
+    position: relative;
+}
+
+.contenthou > div > .b1 {
+    padding: 10px 2.5px 0 5px;
+}
+
+.contenthou > div > .b2 {
+    padding: 10px 5px 0 2.5px;
+}
+
+.l1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.l2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.l1 > a {
+    display: block;
+    text-decoration: none;
+}
+
+.touxiang {
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
+    width: 20px
+}
+
+.name {
+    position: absolute;
+    bottom: 4px;
+    left: 35px;
+    color: white;
+}
+
+.like {
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+    width: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    bottom: 0;
+}
+
+footer > a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+footer > a:active {
+    border-bottom: 3px solid #f33863;
+    text-decoration: none;
+}
+
+footer > a > img {
+    width: 23px;
+    height: 21px;
+}
+
+footer > a > img.img_logo {
+    width: 30px;
+}
+
+footer > a > span {
+    color: #969696;
+    font-size: 10px;
+}
+
+footer > a.active >span {
+    color: #f33863;
+}
+
+footer > a.active {
+    border-bottom: 3px solid #f33863;
+}

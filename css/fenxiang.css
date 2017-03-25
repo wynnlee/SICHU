@@ -1,0 +1,123 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+    margin: auto 0;
+}
+
+body {
+    background-color: #f6fafd;
+}
+
+header {
+    background-color: #f33863;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header > div {
+    margin-top: 27px;
+}
+
+header > div > a {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+.main {
+    background-color: white;
+    height: 190px;
+    margin: 80px 5px 20px 0px;
+    box-shadow: 0 2px 6px 9d9d9d;
+}
+
+.main > div {
+    background-color: white;
+    height: 160px;
+    padding: 0;
+    border-bottom: solid #90a5af 1px;
+    height: 148px;
+    margin-bottom: 10px;
+}
+
+.main > div > textarea {
+    color: #5c31f2;
+    padding-top: 5px;
+    border: none;
+}
+
+.main > div > textarea:focus {
+    border-color: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.main > div > a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+p {
+    color: #90a5af;
+    font-size: 15px;
+    text-align: right;
+    padding: 5px;
+}
+
+p > a > img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.send {
+    background-color: #5c31f2;
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 2px 1px #5c31f2;
+    margin: 0 4px;
+    text-decoration: none;
+}
+
+.send:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.kuang > .modal > .modal-dialog {
+    margin: 115px;
+}
+
+.kuang > .modal > .modal-dialog > .modal-content {
+    background-color: black;
+}
+
+.modal-body > img {
+    width: 60px;
+    margin: 0 26px;
+}
+
+.modal-body > p {
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+}

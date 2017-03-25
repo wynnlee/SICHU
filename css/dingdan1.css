@@ -1,0 +1,115 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body.beijing {
+    background-color: #f6fbfd;
+}
+
+header {
+    background-color: #f33863;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+header > div.search {
+    text-align: center;
+    margin-top: 28px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+header > div > a > img.img1 {
+    width: 14px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+div.button1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+span.zi {
+    color: #969696;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.active {
+    border-bottom: 2px solid #f33863;
+    text-decoration: none;
+}
+
+div.button1 > a {
+    text-decoration: none;
+}
+
+div > a.white {
+    background-color: white;
+    height: 50px;
+    position: relative;
+    bottom: 15px;
+}
+
+div.beijing1 {
+    width: 86%;
+    height: 120px;
+    background-color: #f9c740;
+    position: relative;
+    top: 69px;
+    left: 25px;
+}
+
+div > a.zi2 {
+    color: white;
+    font-size: 25px;
+    margin-left: 18px;
+    border-right: solid white 2px;
+    height: 100%;
+    position: relative;
+    bottom: 50px;
+}
+
+div > a > span.zizi {
+    position: relative;
+    top: 45px;
+    right: 10px;
+}
+
+div > a.zi3 {
+    position: relative;
+    bottom: 18px;
+    right: 10px;
+    float: right;
+    font-size: 15px;
+    color: white;
+}
+
+div > a.zi4 {
+    position: relative;
+    top: 4px;
+    right: 20px;
+    float: right;
+    font-size: 1px;
+    color: white;
+}
+
+div.btn1 > a {
+    text-decoration: none;
+}

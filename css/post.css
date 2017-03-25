@@ -1,0 +1,271 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #f33863;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+header > div.search {
+    text-align: center;
+    margin-top: 28px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+header > div > a > img.img1 {
+    width: 14px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+div > img.photo1 {
+    margin-top: 80px;
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+}
+
+div > span.name {
+    color: #6d6d6d;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    left: 8px;
+}
+
+div > span.name2 {
+    color: #adadad;
+    font-size: 13px;
+    position: relative;
+    bottom: 25px;
+    left: 72px;
+}
+
+div.summer {
+    font-size: 15px;
+    color: #9e9e9e;
+    margin-top: -8px;
+    border-width: thick;
+}
+
+div > p.summer1 {
+    font-size: 15px;
+    color: #989898;
+    margin-top: -8px;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+div > p > span.hour {
+    float: right;
+    position: relative;
+    right: 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+div > textarea.kuang {
+    border-style: none;
+}
+
+div > textarea.kuang:focus {
+    border-color: none;
+    outline: none;
+    box-shadow: none;
+}
+
+div > p.report {
+    color: #c3c3c3;
+    font-size: 12px;
+    margin-top: 140px;
+    margin-left: 15px;
+}
+
+div > p.report > span.tubiao {
+    float: right;
+    position: relative;
+    right: 22px;
+    word-spacing: 6px;
+}
+
+div > p.report > span.tubiao > img.xiaotubiao {
+    width: 20px;
+    height: 20px;
+}
+
+div.xian {
+    border-style: solid;
+    border-color: #f2f6f9;
+    margin-bottom: 5px;
+}
+
+div.top1 > img.photo2 {
+    /*margin-bottom: 112px;
+    margin-left: 10px;*/
+    position: relative;
+    left: 10px;
+}
+
+div.top1 > span.name4 {
+    position: relative;
+    bottom: 8px;
+    left: 15px;
+    color: #6d6d6d;
+    font-size: 13px;
+}
+
+div.top1 > span.name5 {
+    color: #ababab;
+    font-size: 13px;
+    position: relative;
+    bottom: 24px;
+    left: 62px;
+}
+
+div.top1 > span.hour2 {
+    color: #ababab;
+    font-size: 13px;
+    position: relative;
+    bottom: 35px;
+    float: right;
+    right: 20px;
+}
+
+div > p.commentate {
+    color: #ababab;
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+/* div > p.commentate > span */
+
+.more {
+    color: #ababab;
+    float: right;
+    position: relative;
+    right: 20px;
+}
+
+div > p.commentate > span.more > a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+div > div.top1 > div.summer > span.summer2 {
+    color: #969696;
+    font-size: 10px;
+    position: relative;
+    bottom: 4px;
+    left: 16px;
+}
+
+div > div.top1 > div.summer > p.report1 {
+    color: #c3c3c3;
+    font-size: 12px;
+    margin-left: 16px;
+    position: relative;
+    top: 6px;
+}
+
+div > div.top1 > div.summer > p.report1 > span.tubiao1 {
+    float: right;
+    position: relative;
+    right: 22px;
+    word-spacing: 6px;
+}
+
+div.summer > p.report1 > span.tubiao1 > img.xiaotubiao1 {
+    width: 20px;
+    height: 20px;
+}
+
+div.summer > p.report1 > span.tubiao1 > img.litter {
+    width: 16px;
+    height: 16px;
+}
+
+div.xian1 {
+    border-style: solid;
+    border-color: #f2f6f9;
+    margin-bottom: 5px;
+    border-width: 1px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+    width: 94%;
+}
+
+div > div.shang {
+    position: relative;
+    top: 10px;
+}
+
+div.top1 >img.photo3 {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    left: 10px;
+}
+
+div.xian2 {
+    border-style: solid;
+    border-color: #f2f6f9;
+    margin-bottom: 5px;
+    border-width: 2px;
+    position: relative;
+    top: 18px;
+    width: 100%;
+}
+
+footer.bt2 {
+    background-color: #f6fafd;
+    height: 42px;
+}
+
+footer.bt2 > .dianzan {
+    background-color: #5c31f2;
+    width: 96%;
+    margin-left: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    height: 38px;
+    line-height: 38px;
+    border-radius: 3px;
+    margin-top: 36px;
+}
+
+.dianzan > a {
+    display: block;
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+.a_left {
+    border-right: solid #f6fafd 0.1px;
+}
+
+.a_center {
+    border-right: solid #f6fafd 0.1px;
+}

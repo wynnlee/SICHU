@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css" />
+    <script type="text/javascript" src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body class="background">
+    <script type="text/javascript">
+        function isMobil() {
+          var tel = document.getElementById("password").value;
+          var tel2 = document.getElementById("password2").value;
+        if (tel==tel2&&tel!="") {
+          document.getElementById("warning").style.display = "none";
+          window.location.replace("xinxi.html");
+        } else {
+          document.getElementById("warning").style.display = "block";
+    };
+}
+    </script>
+    <header>
+        <div class="col-xs-4">
+            <a href="xinxi.html"><img src="../resources/img/15.1.png" class="img1"></a>
+        </div>
+        <div class="col-xs-4 search">重置密码</div>
+        <div class="col-xs-4"></div>
+    </header>
+    <div>
+        <input type="password" class="input1 col-xs-12" placeholder="请输入新密码" id="password">
+    </div>
+     <div>
+        <input type="password" class="input2 col-xs-12" placeholder="请确认新密码" id="password2">
+    </div>
+    <div>
+        <span class="baocun col-xs-12" onclick="isMobil()" id="yes">确定保存</span>
+    </div>
+    <p class="col-xs-12 warning" id="warning" style="display: none;">两次输入密码不同！</p>
+</body>
+
+</html>

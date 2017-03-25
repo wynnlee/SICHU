@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/compile.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/font-awesome/css/font-awesome.min.css">
+    <script src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        $(function() {
+            $("#txt").hide();
+            $("#txt1").on("click", function() {
+                $("#txt1").hide();
+                $("#txt").show();
+            })
+        });
+    </script>
+    <header>
+        <div class="col-xs-1">
+            <a href="main.html"><img src="../resources/img/16.1.png" alt="" style="width: 13px;"></a>
+        </div>
+        <div class="col-xs-4 col-xs-offset-3">
+            <a href="#">编辑衣物</a>
+        </div>
+        <div class="col-xs-1 col-xs-offset-2">
+            <a href="fenxiang.html"><img src="../resources/img/9.2.png" alt="" style="width: 25px;"></a>
+        </div>
+    </header>
+    <div>
+        <a href="shangpin.html"><img src="../resources/img/3.6.png" class="card" alt=""></a>
+    </div>
+    <div class="background1">
+        <p class="text col-xs-3">类型</p>
+        <input class="input1 col-xs-9" placeholder="请选择">
+    </div>
+    <div class="background1 top">
+        <p class="text col-xs-3">款式</p>
+        <input class="input1 col-xs-9" placeholder="请选择">
+    </div>
+    <div class="background1 top">
+        <p class="text col-xs-3">风格</p>
+        <input class="input1 col-xs-9" placeholder="请选择">
+    </div>
+    <div class="background1 top2">
+        <p class="text col-xs-3">颜色</p>
+        <input class="input1 col-xs-9" placeholder="请选择">
+    </div>
+    <div class="background1 top3">
+        <p class="text col-xs-3">品牌</p>
+        <input class="input1 col-xs-9" placeholder="请填写">
+    </div>
+    <div>
+        <p class="text2 col-xs-12" onclick="startcount()" id="txt1">查看更多</p>
+        <div id="txt">
+            <div class="background1 top4">
+                <p class="text col-xs-3" id="txt">季节</p>
+                <input class="input1 col-xs-9" id="txt" placeholder="请选择">
+            </div>
+            <div class="background1 top5">
+                <p class="text col-xs-3" id="txt">时间</p>
+                <input class="input1 col-xs-9" id="txt" placeholder="请选择">
+            </div>
+            <div class="background1 top5">
+                <p class="text col-xs-3" id="txt">备注</p>
+                <input class="input1 col-xs-9" id="txt" placeholder="请填写">
+            </div>
+        </div>
+    </div>
+    <div class="btn1 col-xs-12">
+        <a href="" class="a_left">删除</a>
+        <a href="" class="a_right">确定</a>
+    </div>
+</body>
+
+</html>

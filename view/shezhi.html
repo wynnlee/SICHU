@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../resources/css/shezhi.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css" />
+    <script type="text/javascript" src="../resources/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body class="beijing">
+    <script>
+        $(document).ready(function() {
+            var x = 0;
+            $("img.tubiao").click(function() {
+                if (x == 0) {
+                    x = 1;
+                    a();
+                } else if (x == 1) {
+                    x = 0;
+                    b();
+                }
+            })
+
+            function a() {
+                $("img.tubiao").attr('src', '../resources/img/u_s2.png');
+            }
+
+
+            function b() {
+                $("img.tubiao").attr('src', '../resources/img/u_s1.png');
+            }
+
+
+
+        })
+    </script>
+
+    <header>
+        <div class="col-xs-4">
+            <a href="gerenzhongxin.html"><img src="../resources/img/17.1.png" class="img1"></a>
+        </div>
+        <div class="col-xs-4 search">设置</div>
+        <div class="col-xs-4"></div>
+    </header>
+    <hr class="hr1">
+    <a href="#" class="col-xs-12 massive"><span class="zi3">账号信息</span></a>
+    <a href="#" class="col-xs-12 massive"><span class="zi3">修改密码</span></a>
+    <a href="#" class="col-xs-12 massive"><span class="zi3">授权第三方</span></a>
+    <hr class="hr2">
+    <a href="#" class="col-xs-12 massive">
+        <p class="zi4">消息推送
+
+            <span><img src="../resources/img/u_s1.png" class="tubiao"></span> </p>
+    </a>
+    <a href="#" class="col-xs-12 massive">
+        <p class="zi4">清理缓存<span class="zi5">0.0B</span></p>
+    </a>
+    <hr class="hr2">
+    <a href="#" class="col-xs-12 massive">
+        <p class="zi4">分享私橱给好友</span>
+        </p>
+    </a>
+    <a href="#" class="col-xs-12 massive">
+        <p class="zi4">关于私橱</p>
+    </a>
+    <hr class="hr3">
+    <a href="xinxi.html" class="send">退出登录</a>
+    </div>

@@ -1,0 +1,113 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #f33863;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+header > div.search {
+    text-align: center;
+    margin-top: 28px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+header > div > a > img.img1 {
+    width: 14px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+.hr1 {
+    width: 100%;
+    height: 7px;
+    background-color: #f6fafd;
+    margin: 0;
+    margin-top: 65px;
+}
+
+a.massive > span.zi3 {
+    font-size: 16px;
+    color: #9d9d9d;
+    padding-left: 4px;
+    position: relative;
+    top: 9px;
+}
+
+a.massive {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-decoration: none;
+}
+
+a.massive:hover {
+    text-decoration: none;
+}
+
+.hr2 {
+    width: 100%;
+    height: 7px;
+    background-color: #f6fafd;
+    margin: 0;
+    position: relative;
+    top: 15px;
+}
+
+a.massive > p.zi4 {
+    font-size: 16px;
+    color: #9d9d9d;
+    padding-left: 4px;
+    position: relative;
+    top: 18px;
+}
+
+img.tubiao {
+    background: transparent url(../resources/img/u_s1.png) no-repeat scroll 0px 0px / 49px 28px;
+    float: right;
+    width: 36px;
+    height: 20px;
+    margin-top: 7px;
+}
+
+a > p > span.zi5 {
+    float: right;
+    font-size: 8px;
+    position: relative;
+    right: 5px;
+}
+
+.send {
+    background-color: #5c31f2;
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 2px 1px #5c31f2;
+    margin: 0 4px;
+    margin-top: 91px;
+    margin-left: 11px;
+    width: 94%;
+}
+
